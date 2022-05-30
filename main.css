@@ -1,0 +1,153 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-bluey: hsl(217, 54%, 11%);
+    --Very-dark-blue: hsl(216, 50%, 16%);
+    --Very-dark-bluee: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --font-family: "outfit", sans-serif;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Very-dark-bluey);
+}
+
+.container {
+    background-color: var(--Very-dark-blue);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    height: 650px;
+    margin: 50px auto;
+}
+
+.container picture img {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container .card h1 {
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: var(--White);
+    font-family: "outfit", sans-serif;
+    font-weight: 600px;
+}
+
+.container .card .one {
+    color: #2f4460;
+    font-family: "outfit", sans-serif;
+    font-weight: 300;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container .card svg {
+    margin-left: 25px;
+    display: inline;
+}
+
+.container .card .two {
+    color: var(--Cyan);
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: relative;
+}
+
+.container .card {
+    position: relative;
+    font-family: var(--font-family);
+}
+
+.container .card .three {
+    color: var(--Soft-blue);
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: absolute;
+    right: 30px;
+    bottom: 65px;
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    color: var(--Very-dark-bluee);
+}
+
+.container .card span img {
+    width: 40px;
+    border: white 2px solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 25px;
+}
+
+.container .card .finish {
+    color: var(--Soft-blue);
+}
+
+.container .card .finish .text {
+    color: var(--White);
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:375px) {
+    .container {
+        background-color: var(--Very-dark-blue);
+        border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -ms-border-radius: 10px 10px 10px 10px;
+        -o-border-radius: 10px 10px 10px 10px;
+        width: 330px;
+        height: 650px;
+        margin: 50px auto;
+    }
+
+    .container picture img {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 25px;
+        margin-bottom: 5px;
+        width: 300px;
+        height: 350px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+}
